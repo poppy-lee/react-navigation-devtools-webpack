@@ -53,4 +53,7 @@ module.exports = (_, argv) => ({
     host: "0.0.0.0",
     hot: true,
   },
+  performance: {
+    hints: false,
+  },
 });
