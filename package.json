@@ -1,0 +1,27 @@
+{
+  "name": "react-navigation-devtools-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "prd": "webpack serve --mode production"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@react-navigation/devtools": "^7.0.29",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^10.0.0",
+    "babel-plugin-react-native-web": "^0.20.0",
+    "html-webpack-plugin": "^5.6.3",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
