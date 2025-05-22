@@ -1,4 +1,4 @@
-// import { useLogger } from "@react-navigation/devtools";
+import { useLogger } from "@react-navigation/devtools";
 import {
   NavigationContainer,
   useNavigation,
@@ -19,7 +19,7 @@ const linkingOptions = {
 export default function App() {
   const navigationRef = useNavigationContainerRef();
 
-  // useLogger(navigationRef);
+  useLogger(navigationRef);
 
   return (
     <NavigationContainer ref={navigationRef} linking={linkingOptions}>
